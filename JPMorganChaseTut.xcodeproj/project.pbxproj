@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B465D5631B8B67AD00ACA87F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B465D5621B8B67AD00ACA87F /* main.m */; };
+		B465D5661B8B67AD00ACA87F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B465D5651B8B67AD00ACA87F /* AppDelegate.m */; };
+		B465D5691B8B67AD00ACA87F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B465D5681B8B67AD00ACA87F /* ViewController.m */; };
+		B465D56C1B8B67AD00ACA87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B465D56A1B8B67AD00ACA87F /* Main.storyboard */; };
+		B465D56E1B8B67AD00ACA87F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B465D56D1B8B67AD00ACA87F /* Images.xcassets */; };
+		B465D5711B8B67AD00ACA87F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B465D56F1B8B67AD00ACA87F /* LaunchScreen.xib */; };
+		B465D57D1B8B67AD00ACA87F /* JPMorganChaseTutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B465D57C1B8B67AD00ACA87F /* JPMorganChaseTutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B465D5771B8B67AD00ACA87F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B465D5551B8B67AD00ACA87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B465D55C1B8B67AD00ACA87F;
+			remoteInfo = JPMorganChaseTut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B465D55D1B8B67AD00ACA87F /* JPMorganChaseTut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPMorganChaseTut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465D5611B8B67AD00ACA87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B465D5621B8B67AD00ACA87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B465D5641B8B67AD00ACA87F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B465D5651B8B67AD00ACA87F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B465D5671B8B67AD00ACA87F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B465D5681B8B67AD00ACA87F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B465D56B1B8B67AD00ACA87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B465D56D1B8B67AD00ACA87F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B465D5701B8B67AD00ACA87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B465D5761B8B67AD00ACA87F /* JPMorganChaseTutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPMorganChaseTutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B465D57B1B8B67AD00ACA87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B465D57C1B8B67AD00ACA87F /* JPMorganChaseTutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPMorganChaseTutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B465D55A1B8B67AD00ACA87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465D5731B8B67AD00ACA87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B465D5541B8B67AD00ACA87F = {
+			isa = PBXGroup;
+			children = (
+				B465D55F1B8B67AD00ACA87F /* JPMorganChaseTut */,
+				B465D5791B8B67AD00ACA87F /* JPMorganChaseTutTests */,
+				B465D55E1B8B67AD00ACA87F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B465D55E1B8B67AD00ACA87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B465D55D1B8B67AD00ACA87F /* JPMorganChaseTut.app */,
+				B465D5761B8B67AD00ACA87F /* JPMorganChaseTutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B465D55F1B8B67AD00ACA87F /* JPMorganChaseTut */ = {
+			isa = PBXGroup;
+			children = (
+				B465D5641B8B67AD00ACA87F /* AppDelegate.h */,
+				B465D5651B8B67AD00ACA87F /* AppDelegate.m */,
+				B465D5671B8B67AD00ACA87F /* ViewController.h */,
+				B465D5681B8B67AD00ACA87F /* ViewController.m */,
+				B465D56A1B8B67AD00ACA87F /* Main.storyboard */,
+				B465D56D1B8B67AD00ACA87F /* Images.xcassets */,
+				B465D56F1B8B67AD00ACA87F /* LaunchScreen.xib */,
+				B465D5601B8B67AD00ACA87F /* Supporting Files */,
+			);
+			path = JPMorganChaseTut;
+			sourceTree = "<group>";
+		};
+		B465D5601B8B67AD00ACA87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B465D5611B8B67AD00ACA87F /* Info.plist */,
+				B465D5621B8B67AD00ACA87F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B465D5791B8B67AD00ACA87F /* JPMorganChaseTutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B465D57C1B8B67AD00ACA87F /* JPMorganChaseTutTests.m */,
+				B465D57A1B8B67AD00ACA87F /* Supporting Files */,
+			);
+			path = JPMorganChaseTutTests;
+			sourceTree = "<group>";
+		};
+		B465D57A1B8B67AD00ACA87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B465D57B1B8B67AD00ACA87F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B465D55C1B8B67AD00ACA87F /* JPMorganChaseTut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465D5801B8B67AD00ACA87F /* Build configuration list for PBXNativeTarget "JPMorganChaseTut" */;
+			buildPhases = (
+				B465D5591B8B67AD00ACA87F /* Sources */,
+				B465D55A1B8B67AD00ACA87F /* Frameworks */,
+				B465D55B1B8B67AD00ACA87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPMorganChaseTut;
+			productName = JPMorganChaseTut;
+			productReference = B465D55D1B8B67AD00ACA87F /* JPMorganChaseTut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B465D5751B8B67AD00ACA87F /* JPMorganChaseTutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B465D5831B8B67AD00ACA87F /* Build configuration list for PBXNativeTarget "JPMorganChaseTutTests" */;
+			buildPhases = (
+				B465D5721B8B67AD00ACA87F /* Sources */,
+				B465D5731B8B67AD00ACA87F /* Frameworks */,
+				B465D5741B8B67AD00ACA87F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B465D5781B8B67AD00ACA87F /* PBXTargetDependency */,
+			);
+			name = JPMorganChaseTutTests;
+			productName = JPMorganChaseTutTests;
+			productReference = B465D5761B8B67AD00ACA87F /* JPMorganChaseTutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B465D5551B8B67AD00ACA87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Joffrey Mann";
+				TargetAttributes = {
+					B465D55C1B8B67AD00ACA87F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B465D5751B8B67AD00ACA87F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B465D55C1B8B67AD00ACA87F;
+					};
+				};
+			};
+			buildConfigurationList = B465D5581B8B67AD00ACA87F /* Build configuration list for PBXProject "JPMorganChaseTut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B465D5541B8B67AD00ACA87F;
+			productRefGroup = B465D55E1B8B67AD00ACA87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B465D55C1B8B67AD00ACA87F /* JPMorganChaseTut */,
+				B465D5751B8B67AD00ACA87F /* JPMorganChaseTutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B465D55B1B8B67AD00ACA87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465D56C1B8B67AD00ACA87F /* Main.storyboard in Resources */,
+				B465D5711B8B67AD00ACA87F /* LaunchScreen.xib in Resources */,
+				B465D56E1B8B67AD00ACA87F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465D5741B8B67AD00ACA87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B465D5591B8B67AD00ACA87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465D5691B8B67AD00ACA87F /* ViewController.m in Sources */,
+				B465D5661B8B67AD00ACA87F /* AppDelegate.m in Sources */,
+				B465D5631B8B67AD00ACA87F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B465D5721B8B67AD00ACA87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B465D57D1B8B67AD00ACA87F /* JPMorganChaseTutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B465D5781B8B67AD00ACA87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B465D55C1B8B67AD00ACA87F /* JPMorganChaseTut */;
+			targetProxy = B465D5771B8B67AD00ACA87F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B465D56A1B8B67AD00ACA87F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465D56B1B8B67AD00ACA87F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B465D56F1B8B67AD00ACA87F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B465D5701B8B67AD00ACA87F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B465D57E1B8B67AD00ACA87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B465D57F1B8B67AD00ACA87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B465D5811B8B67AD00ACA87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMorganChaseTut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B465D5821B8B67AD00ACA87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JPMorganChaseTut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B465D5841B8B67AD00ACA87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPMorganChaseTutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMorganChaseTut.app/JPMorganChaseTut";
+			};
+			name = Debug;
+		};
+		B465D5851B8B67AD00ACA87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JPMorganChaseTutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JPMorganChaseTut.app/JPMorganChaseTut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B465D5581B8B67AD00ACA87F /* Build configuration list for PBXProject "JPMorganChaseTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465D57E1B8B67AD00ACA87F /* Debug */,
+				B465D57F1B8B67AD00ACA87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B465D5801B8B67AD00ACA87F /* Build configuration list for PBXNativeTarget "JPMorganChaseTut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465D5811B8B67AD00ACA87F /* Debug */,
+				B465D5821B8B67AD00ACA87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B465D5831B8B67AD00ACA87F /* Build configuration list for PBXNativeTarget "JPMorganChaseTutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B465D5841B8B67AD00ACA87F /* Debug */,
+				B465D5851B8B67AD00ACA87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B465D5551B8B67AD00ACA87F /* Project object */;
+}
