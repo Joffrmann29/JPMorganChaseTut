@@ -16,5 +16,6 @@
 @property (strong, nonatomic) NSArray *locations;
 @property (strong, nonatomic) IBOutlet MKMapView *map;
 @property (strong, nonatomic) CLLocationManager *locationManager;
+@property (strong, nonatomic) NSString *name;
 
 @end
