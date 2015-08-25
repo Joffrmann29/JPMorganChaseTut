@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gfg-qX-1G2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--ATM Map-->
+        <scene sceneID="X0J-1c-ttY">
+            <objects>
+                <viewController id="ShD-WG-8GQ" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mDw-gM-71M"/>
+                        <viewControllerLayoutGuide type="bottom" id="S2U-Nf-Ujr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nK8-h8-2gp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="UMN-Vp-Npy">
+                                <rect key="frame" x="0.0" y="64" width="600" height="600"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UMN-Vp-Npy" firstAttribute="top" secondItem="mDw-gM-71M" secondAttribute="bottom" id="Cik-pw-pX6"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="UMN-Vp-Npy" secondAttribute="bottom" constant="-64" id="Fuv-Tf-DeZ"/>
+                            <constraint firstAttribute="trailing" secondItem="UMN-Vp-Npy" secondAttribute="trailing" id="YTh-6f-a1V"/>
+                            <constraint firstItem="UMN-Vp-Npy" firstAttribute="leading" secondItem="nK8-h8-2gp" secondAttribute="leading" id="dVx-An-P3G"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="ATM Map" id="XPd-IL-Q9T"/>
+                    <connections>
+                        <outlet property="map" destination="UMN-Vp-Npy" id="sZt-Jd-Xgk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUJ-eV-6PR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="-455"/>
+        </scene>
+        <!--Chase ATMS-->
+        <scene sceneID="goS-U9-Ks6">
+            <objects>
+                <viewController id="gh9-qe-ZS0" customClass="ATMViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="D2l-Yx-hrf"/>
+                        <viewControllerLayoutGuide type="bottom" id="4RJ-eV-l48"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tar-tx-gpU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="K8J-nP-GQM">
+                                <rect key="frame" x="0.0" y="11" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ATMCell" textLabel="o6b-EJ-lkV" detailTextLabel="Tgf-re-Tgm" style="IBUITableViewCellStyleSubtitle" id="Aft-Ff-Dwm">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Aft-Ff-Dwm" id="feG-5d-sAg">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o6b-EJ-lkV">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Tgf-re-Tgm">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ku6-dA-KRz" kind="show" id="yN5-QF-9wl"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K8J-nP-GQM" firstAttribute="leading" secondItem="tar-tx-gpU" secondAttribute="leading" id="7M3-oA-ZhQ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="K8J-nP-GQM" secondAttribute="bottom" constant="-11" id="Iva-B3-dFb"/>
+                            <constraint firstItem="K8J-nP-GQM" firstAttribute="top" secondItem="tar-tx-gpU" secondAttribute="topMargin" constant="11" id="mDf-5g-gyb"/>
+                            <constraint firstAttribute="trailing" secondItem="K8J-nP-GQM" secondAttribute="trailing" id="wup-cG-YME"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Chase ATMS" id="9eb-Wd-psU">
+                        <barButtonItem key="rightBarButtonItem" image="navigate48.png" id="Fry-Oc-l5o">
+                            <connections>
+                                <segue destination="ShD-WG-8GQ" kind="show" id="ygM-9j-8Lu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="K8J-nP-GQM" id="u6p-4v-1Je"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2RZ-vW-Cui" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1319" y="222"/>
+        </scene>
+        <!--ATM Details-->
+        <scene sceneID="GIm-pg-vJc">
+            <objects>
+                <viewController id="Ku6-dA-KRz" customClass="ATMDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DTu-e5-Y2J"/>
+                        <viewControllerLayoutGuide type="bottom" id="iZF-c4-sHW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4RG-j0-0sT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1K-Z5-b1h">
+                                <rect key="frame" x="186" y="300" width="229" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="BIC-MQ-7Or"/>
+                                    <constraint firstAttribute="height" constant="50" id="bsa-2B-Meu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76U-lA-S5X">
+                                <rect key="frame" x="186" y="370" width="229" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="229" id="ats-rB-hYB"/>
+                                    <constraint firstAttribute="height" constant="50" id="dV9-yQ-DuF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-6q-QaJ">
+                                <rect key="frame" x="186" y="440" width="229" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="903-lJ-W3Q"/>
+                                    <constraint firstAttribute="width" constant="229" id="J4p-dt-7ZU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M26-ZD-cHU">
+                                <rect key="frame" x="186" y="510" width="229" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="WGg-S9-aF2"/>
+                                    <constraint firstAttribute="width" constant="229" id="z8A-qD-sit"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="jp_morgan_chase_logo.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Nfq-xI-RXW">
+                                <rect key="frame" x="180" y="64" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Rt1-Ak-LKs"/>
+                                    <constraint firstAttribute="height" constant="200" id="mnu-BH-NEz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="e8h-6q-QaJ" firstAttribute="top" secondItem="76U-lA-S5X" secondAttribute="bottom" constant="20" id="1Cy-k7-USN"/>
+                            <constraint firstAttribute="centerX" secondItem="e8h-6q-QaJ" secondAttribute="centerX" constant="-0.5" id="DaC-S3-smr"/>
+                            <constraint firstAttribute="centerX" secondItem="M26-ZD-cHU" secondAttribute="centerX" constant="-0.5" id="FAc-tP-rTg"/>
+                            <constraint firstItem="M26-ZD-cHU" firstAttribute="top" secondItem="e8h-6q-QaJ" secondAttribute="bottom" constant="20" id="QWS-0p-Fe0"/>
+                            <constraint firstAttribute="centerX" secondItem="76U-lA-S5X" secondAttribute="centerX" constant="-0.5" id="TNG-vj-A99"/>
+                            <constraint firstItem="76U-lA-S5X" firstAttribute="top" secondItem="J1K-Z5-b1h" secondAttribute="bottom" constant="20" id="cC8-bL-gd5"/>
+                            <constraint firstItem="J1K-Z5-b1h" firstAttribute="top" secondItem="Nfq-xI-RXW" secondAttribute="bottom" constant="36" id="iZk-Cl-Gfj"/>
+                            <constraint firstAttribute="centerX" secondItem="Nfq-xI-RXW" secondAttribute="centerX" id="muF-KR-wSw"/>
+                            <constraint firstAttribute="centerX" secondItem="J1K-Z5-b1h" secondAttribute="centerX" constant="-0.5" id="qDQ-NB-NgN"/>
+                            <constraint firstItem="Nfq-xI-RXW" firstAttribute="top" secondItem="DTu-e5-Y2J" secondAttribute="bottom" id="uGn-XV-52f"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="ATM Details" id="Ttc-Nt-vE0"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="M26-ZD-cHU" id="2IK-Ew-Osu"/>
+                        <outlet property="distanceLabel" destination="e8h-6q-QaJ" id="xCZ-7u-Lw7"/>
+                        <outlet property="locTypeLabel" destination="76U-lA-S5X" id="XR3-xS-eB3"/>
+                        <outlet property="nameLabel" destination="J1K-Z5-b1h" id="tmp-tR-2c5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFd-9T-E5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2047" y="222"/>
+        </scene>
+        <!--My Navigation Controller-->
+        <scene sceneID="wss-ru-XYB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gfg-qX-1G2" customClass="MyNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HF4-w8-J2n">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gh9-qe-ZS0" kind="relationship" relationship="rootViewController" id="Pvk-If-8AM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yUI-TP-ssO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="635" y="222"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="jp_morgan_chase_logo.gif" width="200" height="200"/>
+        <image name="navigate48.png" width="32" height="32"/>
+    </resources>
+</document>
