@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77E1DAB8-8A19-4B5E-B7B3-2EC0C076FE5A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JPMorganChaseTut</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C0E5C4A91A6508C885D9C797E72741403F07A817</key>
+		<string>https://github.com/Joffrmann29/JPMorganChaseTut.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JPMorganChaseTut.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C0E5C4A91A6508C885D9C797E72741403F07A817</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Joffrmann29/JPMorganChaseTut.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C0E5C4A91A6508C885D9C797E72741403F07A817</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C0E5C4A91A6508C885D9C797E72741403F07A817</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JPMorganChaseTut</string>
+		</dict>
+	</array>
+</dict>
+</plist>
